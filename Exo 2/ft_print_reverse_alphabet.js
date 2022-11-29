@@ -1,6 +1,6 @@
-function trinombreique(){
-    var nombre = '123456789';
-    var nombreTrie = nombre.split('').sort().join('');
-  return nombreTrie;
-  }
-  console.log(trinombreique()); 
+       function trierAlphabetiqueInverse()
+       {
+  var alphabetInverse = 'rzadcbhgfxhijklomnpqstuvwy';
+  var alphabetTrierInverse = alphabetInverse.split('').sort().reverse().join('');
+  console.log(alphabetTrierInverse);}
+trierAlphabetiqueInverse(); log : abcdefghijklmnopqrstuvwxyz
